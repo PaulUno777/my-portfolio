@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { projectData } from "./data.tsx";
 import classNames from "classnames";
-import "./Project.css";
+import "./project.css";
 
 type MenuItem = 1 | 2 | 3;
 

@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import "./About.css";
+import "./about.css";
 import type { JSX } from "react";
 
 type AboutSubHeadingProps = {

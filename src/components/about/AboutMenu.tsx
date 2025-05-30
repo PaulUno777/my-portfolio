@@ -3,7 +3,7 @@ import personalIcon from "../../assets/mage-100.png";
 import { subHeadingData } from "./data.tsx";
 import { AboutMenuItem } from "./AboutMenuItem";
 import { AboutSubHeading } from "./AboutSubHeading";
-import "./About.css";
+import "./about.css";
 
 type MenuItem = 1 | 2 | 3;
 
