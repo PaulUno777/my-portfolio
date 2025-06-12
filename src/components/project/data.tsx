@@ -21,7 +21,7 @@ export const projectData = {
           </p>
         </>
       ),
-      repository: "#", // Replace if needed
+      repository: "", // Replace if needed
       demo: "https://sandbox.kamix.io/payments/login", // Replace if available
     },
   ],
@@ -45,8 +45,8 @@ export const projectData = {
           </p>
         </>
       ),
-      repository: "#", // Add actual repo link if available
-      demo: "#", // Add link if demo/staging exists
+      repository: "", // Add actual repo link if available
+      demo: "", // Add link if demo/staging exists
     },
   ],
   3: [
@@ -68,8 +68,8 @@ export const projectData = {
           </p>
         </>
       ),
-      repository: "#", 
-      demo: "#", 
+      repository: "",
+      demo: "https://leya.ca/",
     },
   ],
 };

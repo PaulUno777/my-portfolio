@@ -104,3 +104,22 @@ label {
     padding: 0 0.5rem;
   }
 }
+
+.contact-icons {
+  display: flex;
+  gap: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.75rem;
+}
+
+.contact-icon-link {
+  font-size: 1.5rem;
+  color: #b1ab9e;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.contact-icon-link:hover {
+  color: #e5e3dd; /* light cyan for hover */
+  transform: scale(1.2);
+}

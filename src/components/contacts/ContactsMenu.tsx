@@ -2,6 +2,7 @@ import { send } from "@emailjs/browser";
 import { useState } from "react";
 import DOMPurify from "dompurify";
 import "./contact.css";
+import { ContactIcons } from "./ContactIcons";
 
 type FormMessage = {
   name: string;
@@ -93,6 +94,8 @@ export const ContactsMenu = () => {
 
   return (
     <div className="contact-menu">
+      <ContactIcons />
+
       {!isSent && (
         <form onSubmit={handleSubmit}>
           <div className="form-group">
